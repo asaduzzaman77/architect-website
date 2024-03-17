@@ -1,0 +1,192 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+}
+
+h1,h2,h3,h4{
+    font-family: "Segoe UI", Arial, sans-serif;;
+}
+
+.navbar {
+  background-color: white;
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 22.5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.12) 0px 2px 10px 0px;
+
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar li{
+    list-style: none;
+    cursor: pointer;
+}
+.navbar li a{
+    text-decoration: none;
+    color: black;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+    letter-spacing: 4px;
+}
+
+.d-flex .logo{
+    padding:16px;
+}
+.d-flex .logo .special{
+    font-weight: bold;
+}
+
+.menu{
+    display: flex;
+    padding: 13px 16px;
+}
+
+.menu li{
+    padding: 16px;
+}
+
+.menu li:hover , .logo:hover{
+    background-color: gainsboro;
+}
+
+.header{
+    background: url("./img/architect.jpg");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1{
+    color: white;
+    font-size: 36px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.header .mr-title{
+    background-color: black;
+    padding: 8px 15px;
+    opacity: 0.7;
+}
+
+.header .arc-title{
+    font-weight: normal;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 30px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.section-title{
+    padding: 18px 0;
+    margin: 52px 0;
+    border-bottom: 1px solid gainsboro;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.d-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+}
+
+.house-card{
+    position: relative;
+}
+
+.house-card p{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    padding: 8px 16px;
+    color: white;
+}
+
+.team-card .name{
+    font-size: 28px;
+    color: 000000;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+.team-card h3{
+    font-size: 18px;
+    font-weight: normal;
+    color: rgb(163, 160, 160);
+}
+
+.team-card p{
+    padding: 18px 0;
+    font-size: 15px;
+}
+
+.team-card .button{
+    max-width: 100%;
+    background-color: #F1F1F1;
+    padding: 8px 10px;
+    text-align: center;
+    font-size: 17px;
+    
+}
+.team-card a{
+    color: black;
+    text-decoration: none;
+}
+
+.message input{
+ width: 100%;
+ padding: 15px;
+ margin: 15px 0;
+}
+
+.message .btn{
+    background-color: black;
+    padding: 10px 8px;
+    max-width: 319px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.message .btn a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.footer{
+    background-color: black;
+    text-align: center;
+    padding: 32px 0;
+    color: white;
+}
+
+
+
+
